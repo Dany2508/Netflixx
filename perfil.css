@@ -1,0 +1,40 @@
+body{
+    background-color: black;
+}
+
+h1{
+    color: red;
+    text-align: center;
+    font-size: 3.5em;
+    margin-top: 40px;
+    margin-left: -60px;
+}
+
+h3{
+    color: white;
+    text-align: center;
+    margin-left: -50px;
+    margin-top: 40px;
+}
+
+.profile-container {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+}
+ 
+.profile:hover {
+    transform: scale(1.05);
+    box-shadow: 0 4px 20px rgba(0, 0, 0, 0.7);
+}
+
+.profile img {
+    width: 100px;
+    height: 100px;
+    margin-left: 10px;
+}
+
+p {
+    color: white;
+    margin-left: 20px;
+}
